@@ -1,0 +1,42 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#list{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#list li{
+    float: left;
+    width: 400px;
+}
+.item{
+    width: 320px;
+    padding: 10px;
+    margin: 10px;
+}
+.item img{
+    width: 100%;
+    display: block;
+}
+.item p{
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #888;
+}
+#retTop{
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: orange;
+    text-align: center;
+    line-height: 100px;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+}
